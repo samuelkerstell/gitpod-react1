@@ -6,10 +6,11 @@ import EventsFunctional from './components/EventsFunctional';
 import NestingComponents from './components/NestingComponents';
 import MethodsAsPropsChild from './components/MethodsAsPropsChild';
 import MethodsAsPropsParent from './components/MethodsAsPropsParent';
+import RenderingLists from './components/RenderingLists';
 
 function App() {
   return <div className='App'>
-      <MethodsAsPropsParent />
+      <RenderingLists />
   </div>;
 }
 
