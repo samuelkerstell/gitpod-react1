@@ -10,10 +10,12 @@ import RenderingLists from './components/RenderingLists';
 import LifeCyclesCDU from './components/LifeCyclesCDU';
 import LifeCyclesCWU from './components/LifeCyclesCWU';
 import ControlledForm from './components/ControlledForm';
+import ControlledFormHooks from './components/ControlledFormHooks';
+import UseStateWtihArrays from './components/UseStateWtihArrays';
 
 function App() {
   return <div className='App'>
-      <ControlledForm />
+      <UseStateWtihArrays />
   </div>;
 }
 
