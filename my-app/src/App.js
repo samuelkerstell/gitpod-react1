@@ -12,10 +12,12 @@ import LifeCyclesCWU from './components/LifeCyclesCWU';
 import ControlledForm from './components/ControlledForm';
 import ControlledFormHooks from './components/ControlledFormHooks';
 import UseStateWtihArrays from './components/UseStateWtihArrays';
+import UseStateWithObjects from './components/UseStateWithObjects';
+import UseEffectCounter from './components/UseEffectCounter';
 
 function App() {
   return <div className='App'>
-      <UseStateWtihArrays />
+      <UseEffectCounter />
   </div>;
 }
 
