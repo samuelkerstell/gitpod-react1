@@ -14,10 +14,11 @@ import ControlledFormHooks from './components/ControlledFormHooks';
 import UseStateWtihArrays from './components/UseStateWtihArrays';
 import UseStateWithObjects from './components/UseStateWithObjects';
 import UseEffectCounter from './components/UseEffectCounter';
+import UseEffectrCounterContainers from './components/UseEffectrCounterContainers';
 
 function App() {
   return <div className='App'>
-      <UseEffectCounter />
+      <UseEffectrCounterContainers />
   </div>;
 }
 
