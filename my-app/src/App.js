@@ -16,10 +16,11 @@ import UseStateWithObjects from './components/UseStateWithObjects';
 import UseEffectCounter from './components/UseEffectCounter';
 import UseEffectrCounterContainers from './components/UseEffectrCounterContainers';
 import HTTPRequests from './components/HTTPRequests';
+import HTTPPost from './components/HTTPPost';
 
 function App() {
   return <div className='App'>
-      <HTTPRequests />
+      <HTTPPost />
   </div>;
 }
 
