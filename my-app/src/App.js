@@ -15,10 +15,11 @@ import UseStateWtihArrays from './components/UseStateWtihArrays';
 import UseStateWithObjects from './components/UseStateWithObjects';
 import UseEffectCounter from './components/UseEffectCounter';
 import UseEffectrCounterContainers from './components/UseEffectrCounterContainers';
+import HTTPRequests from './components/HTTPRequests';
 
 function App() {
   return <div className='App'>
-      <UseEffectrCounterContainers />
+      <HTTPRequests />
   </div>;
 }
 
